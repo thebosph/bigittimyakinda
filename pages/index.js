@@ -19,7 +19,7 @@ export default function Home() {
         transition={{ duration: 1.6, ease: easing }}
         className="font-roboto  lg:font-bold text-xl lg:text-6xl   text-gray-500 text-center heading"
       >
-        Bi'gittim!
+        Bi gittim!
       </motion.h1>
       <motion.span
         initial={{ x: 80, opacity: 0 }}
