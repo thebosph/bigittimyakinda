@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 html,
 body {
   padding: 0;
@@ -13,4 +19,24 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.heading {
+  background: conic-gradient(
+    at right bottom,
+    rgb(249, 115, 22),
+    rgb(229, 231, 235),
+    rgb(225, 29, 72)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bgg {
+  background: linear-gradient(
+    to right,
+    rgb(55, 65, 81),
+    rgb(17, 24, 39),
+    rgb(0, 0, 0)
+  );
 }
